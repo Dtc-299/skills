@@ -1,0 +1,10 @@
+# Generated conversation archives and working copies stay local.
+.dtc/
+__pycache__/
+*.py[cod]
+tests/_runs/
+tests/installed-skills/
+skill-backups/
+.env
+.env.*
+!.env.example
