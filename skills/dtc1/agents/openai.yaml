@@ -1,0 +1,6 @@
+interface:
+  display_name: "DTC1 · 浓缩选定聊天"
+  short_description: "默认保存单个聊天全部历史，也可选择多个聊天合并，保留数据、来源和任务断点"
+  default_prompt: "使用 $dtc1 浓缩当前这一个聊天的全部可访问历史；只有我明确点名多个聊天时才合并。"
+policy:
+  allow_implicit_invocation: true
